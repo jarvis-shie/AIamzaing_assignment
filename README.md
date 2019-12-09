@@ -1,4 +1,4 @@
-# AIamzaing_assignment
+# AImazing_assignment
 
 My reference
 1.websocket and shell
