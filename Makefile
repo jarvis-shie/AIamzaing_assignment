@@ -1,1 +1,1 @@
-g++ AIamazing_test_2.cpp -o AIamazing_test -O3  -ltins
+g++ AIamazing_test.cpp -o AIamazing_test -O3  -ltins
