@@ -25,7 +25,14 @@ bool callback(const PDU &pdu) {
    //get TCP raw data, only payload
     std::string message( payload.begin(), payload.end() ); 
     std::cout << std::hex << message << std::endl;
-    
+	
+    //print hex raw data , pls see console log
+    //std::vector<unsigned char>::const_iterator it ;
+    //for(it = payload.begin();it < payload.end();it++ )
+    //{
+    //	printf("%02x ", *it);       
+    //}
+    //cout << endl;
 
    //write to file
    outfile << std::hex << message << endl;
